@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "FB Call End Beeper",
+    "version": "1.1",
+    "description": "Beeper when call end",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.facebook.com/*",
+                "*://*.messenger.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ]
+}

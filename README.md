@@ -1,1 +1,1 @@
-# fb_call_end_beeper
+# My girlfriend and I often have overnight video calls. She usually hangs up, but I never notice it. She gets mad, so I coded this extension to wake me up the moment the call ends.
